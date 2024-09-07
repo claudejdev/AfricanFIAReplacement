@@ -1,0 +1,8 @@
+GameProject {
+ ID "AfricanFIAReplacement"
+ GUID "624A8B96AA67EFEB"
+ TITLE "African FIA Replacement"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
