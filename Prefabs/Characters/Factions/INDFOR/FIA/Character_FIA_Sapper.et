@@ -1,16 +1,40 @@
-SCR_ChimeraCharacter : "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" {
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{61A705D76908160C}Prefabs/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.et"
+      }
+     }
+    }
+   }
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault VETERAN
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{E873B54F01D7C6D8}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01_Cover_Woodland.et"
+     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{293F577C298061E3}Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     Prefab "{4DC4FD2F6D353B12}Prefabs/Characters/Uniforms/Pants_M70_Dirty.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
@@ -20,18 +44,15 @@ SCR_ChimeraCharacter : "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
-    }
-    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_02.et"
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
     }
     ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M70_Dirty.et"
     }
     ItemsInitConfigurationItem "{6064820F8177C8C0}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
      PrefabsToSpawn + {
-      "{5C053ACAE9D17683}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/ArmedDetonatorWires_KPM_3U1.et" "{8A89D3F70713E55B}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50.et"
+      "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
    }
