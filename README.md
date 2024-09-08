@@ -1,4 +1,6 @@
-# AfricanFIAReplacement
+# ATM African FIA Replacement
+
+[ATM African FIA Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/624A8B96AA67EFEB-ATMAfricanFIAReplacement)
 
 Spelled out, it's an ArmA Reforger mod that replaces the FIA faction's characters.
 
@@ -35,7 +37,7 @@ PS: if you are French speaking and are looking for a mature yet fun team to hang
 
 ### License
 [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
-- Attribution - You must attribute the material in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the material).
-- Noncommercial - You may not use this material for any commercial purposes.
-- Arma Only - You may not convert or adapt this material to be used in other games than Arma.
-- Share Alike - If you adapt, or build upon this material, you may distribute the resulting material only under the same license.
+- _Attribution_ - You must attribute the material in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the material).
+- **Noncommercial** - You may not use this material for any commercial purposes.
+- _Arma Only_ - You may not convert or adapt this material to be used in other games than Arma.
+- **Share Alike** - If you adapt, or build upon this material, you may distribute the resulting material only under the same license.
